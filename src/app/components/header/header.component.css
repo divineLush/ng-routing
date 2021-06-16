@@ -2,7 +2,7 @@
   padding: 2rem;
   border-bottom: 7px dotted fuchsia;
   animation: headerAnimation 5s infinite ease;
-  trasnition: all 1s ease;
+  trasnition: border-color 1s ease;
 }
 
 .header__nav-link:not(:last-child) {
