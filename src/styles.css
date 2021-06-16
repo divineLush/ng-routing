@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   font-size: 3rem;
+  font-family: monospace;
   background: black;
   color: lime;
 }
@@ -18,3 +19,18 @@ a:hover {
   opacity: .6;
 }
 
+button {
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  background: linear-gradient(lime, fuchsia);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .5s ease;
+  border: 0;
+  border-radius: 50px 0 50px 0;
+}
+
+button:hover {
+  background: linear-gradient(fuchsia, lime);
+  border-radius: 0 50px 0 50px;
+}

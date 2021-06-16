@@ -1,8 +1,24 @@
 .header {
   padding: 2rem;
   border-bottom: 7px dotted fuchsia;
+  animation: headerAnimation 5s infinite ease;
+  trasnition: all 1s ease;
 }
 
 .header__nav-link:not(:last-child) {
   margin-right: 1rem;
+}
+
+@keyframes headerAnimation {
+  0% {
+    border-color: lime;
+  }
+
+  50% {
+    border-color: fuchsia;
+  }
+
+  100% {
+    border-color: lime;
+  }
 }
