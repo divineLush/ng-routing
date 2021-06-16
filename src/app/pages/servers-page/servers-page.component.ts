@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-servers-page',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServersPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+    // private route: ActivatedRoute,
+  ) { }
 
   ngOnInit(): void {
   }
 
+  public onReload(): void {
+    this.router.navigate(['/servers']);
+    // this.router.navigate(['service'], { relativeTo: this.route });
+  }
 }
