@@ -1,0 +1,8 @@
+.header {
+  padding: 2rem;
+  border-bottom: 7px dotted fuchsia;
+}
+
+.header__nav-link:not(:last-child) {
+  margin-right: 1rem;
+}

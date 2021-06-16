@@ -1,5 +1,29 @@
-<header>
+<header class="header">
   <nav>
-    <a href="">link</a>
+    <!-- routerLinkActive attaches a CSS class when current path contains the routerLink -->
+    <a
+      class="header__nav-link"
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      home
+    </a>
+    <a
+      class="header__nav-link"
+      routerLink="/users"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      users
+    </a>
+    <a
+      class="header__nav-link"
+      routerLink="/servers"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      servers
+    </a>
   </nav>
 </header>

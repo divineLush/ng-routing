@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-size: 3rem;
+  background: black;
+  color: lime;
+}
+
+a {
+  color: lime;
+  transition: opacity .5s ease;
+}
+
+a.active {
+  color: fuchsia;
+}
+
+a:hover {
+  opacity: .6;
+}
+
