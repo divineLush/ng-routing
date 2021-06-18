@@ -7,7 +7,8 @@ body {
 }
 
 a {
-  margin: 2rem;
+  display: inline-block;
+  padding: 2rem;
   color: lime;
   transition: opacity .5s ease;
 }
@@ -20,8 +21,12 @@ a:hover {
   opacity: .6;
 }
 
+p {
+  margin: 2rem;
+}
+
 button {
-  margin: 3rem;
+  margin: 2rem;
   padding: 2rem 4rem;
   font-size: 2rem;
   background: linear-gradient(lime, fuchsia);

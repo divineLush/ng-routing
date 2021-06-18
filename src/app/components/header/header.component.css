@@ -1,5 +1,4 @@
 .header {
-  padding: 2rem;
   border-bottom: 7px dotted fuchsia;
   animation: headerAnimation 5s infinite ease;
   trasnition: border-color 1s ease;
