@@ -1,2 +1,17 @@
 <p>home-page works!</p>
+<!-- /servers/6/edit?allowEdit=1&anotherParam=0#loading -->
+<a
+  [routerLink]="['/servers', 6, 'edit']"
+  [queryParams]="{ allowEdit: '1', anotherParam: '0' }"
+  fragment="loading"
+>
+  go edit server 6
+</a>
+<a
+  [routerLink]="['/servers', 8, 'edit']"
+  [queryParams]="{ allowEdit: '1' }"
+  fragment="loading"
+>
+  go edit server 8
+</a>
 <button (click)="goToServers()">Go to servers page programmatically</button>

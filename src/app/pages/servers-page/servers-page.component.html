@@ -1,2 +1,9 @@
 <p>servers-page works!</p>
+<!-- /servers/5/edit?allowEdit=1 -->
+<a
+  [routerLink]="['/servers', 5, 'edit']"
+  [queryParams]="{ allowEdit: '1' }"
+>
+  edit server 5
+</a>
 <button (click)="onReload()">Reload Page</button>
